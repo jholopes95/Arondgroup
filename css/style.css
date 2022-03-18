@@ -241,6 +241,28 @@ address { font-style: italic; }
 /* =============================================
 			Theme Custom Select					
 ============================================= */
+.identidade p{
+	align-content: center;
+	font-size: 35px;
+	color: #E03323;
+	text-transform: uppercase;
+}
+.identidade span{
+	font-size: 35px;
+	color: #000;
+	font-weight: 100;
+}
+.identidadetopo p{
+	margin-top: 5%;
+	font-size: 26px;
+	color: #E03323;
+	text-transform: uppercase;
+}
+.identidadetopo span{
+	font-size: 26px;
+	color: #000;
+	font-weight: 100;
+}
 .at-select {
 	color:#666;
 	float:left;
@@ -1595,13 +1617,24 @@ li.at-rss a { background:#ff6600; }
 ============================================= */
 .at-parallexhelping{
 	background: #000;
-	padding: 200px 0 400px;
+	padding: 150px 0 150px;
 }
-.at-parallexhelping:before{background-image: url('images/parallaxbg/parallaxbg-01.jpg');}
+.at-parallexhelping:before{
+	background-image: url('/images/parallaxbg/seja_parceiro_red.png');
+	background-position: top 30% right 10%;
+}
 .at-helpingsmallbusinesses{
 	width: 100%;
 	float: left;
 	text-align: center;
+}
+.at-helpingsmallbusinesses .at-btn {
+    margin-top: 24px;
+    background-color: #E03323;
+}
+.at-helpingsmallbusinesses .at-btn:hover, .at-btn:focus, .at-btn.at-btnactive, .at-btn.at-btnactive:focus {
+    color: #fff;
+	background-color: #E03323;
 }
 .at-helpingsmallbusinesses h2{
 	color: #fff;
@@ -1854,12 +1887,18 @@ li.at-rss a { background:#ff6600; }
 /* =============================================
 			Footer Style						
 ============================================= */
-.at-footer{background: #222;}
+.at-footer{
+	/* background: #222; */
+	background-image: url("/images/footer-white.jpg");
+	background-repeat: no-repeat;
+	
+}
 .at-emailsubscribearea{
+	margin-top: 37px;
+	margin-bottom: 37px;
 	width: 100%;
 	float: left;
-	margin: 0 0 40px;
-	background: #181818;
+	background: #E03323;
 	padding: 40px 30px;
 }
 .at-emailsubscribearea p{
@@ -1919,13 +1958,13 @@ li.at-rss a { background:#ff6600; }
 }
 .at-fcolumn{
 	float: left;
-	color: #ccc;
+	color: #000;
 	width: 33.33%;
 	font-size: 14px;
 	font-weight: 300;
 	padding: 30px 0;
 }
-.at-fcolumn + .at-fcolumn{padding: 30px 0 30px 10%;}
+.at-fcolumn + .at-fcolumn{padding: 30px 0 30px 3%;}
 .at-widget{
 	width: 100%;
 	float: left;
@@ -1935,7 +1974,10 @@ li.at-rss a { background:#ff6600; }
 	float: left;
 	padding: 0 0 30px;
 }
-.at-fcolumn .at-description p{font-weight: 300;}
+.at-fcolumn .at-description p{
+	font-weight: 300;
+	color: #000;
+}
 .at-fcolumn .at-socialicons{
 	width: 100%;
 	float: left;
@@ -1943,15 +1985,15 @@ li.at-rss a { background:#ff6600; }
 }
 .at-fcolumn .at-socialicons li{padding: 0 0 0 6px;}
 .at-fcolumn .at-socialicons li a{
-	color: #555;
+	color: #fff;
 	width: 30px;
 	height: 30px;
-	background: #fff;
+	background: rgb(255, 0, 0);
 	line-height: 30px;
 	-webkit-box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.20);
 	box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.20);
 }
-.at-fcolumn .at-socialicons li a i{color: #555;}
+.at-fcolumn .at-socialicons li a i{color: #fff;}
 .at-fcolumn .at-socialicons li a:hover,
 .at-fcolumn .at-socialicons li a:hover i{color: #fff;}
 .at-fwidgettitle{
@@ -1963,7 +2005,7 @@ li.at-rss a { background:#ff6600; }
 }
 .at-fwidgettitle h3{
 	margin: 0;
-	color: #fff;
+	color: #000;
 	font-size: 24px;
 	line-height: 24px;
 }
@@ -1986,7 +2028,7 @@ li.at-rss a { background:#ff6600; }
 	line-height: inherit;
 	list-style-type: none;
 }
-.at-widgetcontent ul li a{color: #ccc;}
+.at-widgetcontent ul li a{color: #8F8F8F;}
 .at-widgetusefullinks .at-widgetcontent ul li{width: 40%;}
 .at-widgetusefullinks .at-widgetcontent ul li:nth-child(odd){float: left;}
 .at-widgetusefullinks .at-widgetcontent ul li:nth-child(even){float: right;}
@@ -2054,7 +2096,7 @@ li.at-rss a { background:#ff6600; }
 	line-height: inherit;
 }
 .at-copyright p a{
-	color: #fff;
+	color: rgb(219, 22, 22);
 	text-decoration: none;
 }
 /*
