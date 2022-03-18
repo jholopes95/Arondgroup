@@ -187,7 +187,7 @@
 	.at-navigation ul.sub-menu li a{padding-bottom: 0;}
 	.at-comingsooncontent h2 {
 		margin: 15% 0 0;
-		font: 300 50px/53px 'Rubik', Arial, Helvetica, sans-serif;
+		font: 300 50px/53px 'Lexend Peta', Helvetica, sans-serif;
 	}
 }
 @media (max-width:991px){
@@ -215,10 +215,11 @@
 	.at-servicetabcontent .at-sectionimg{width: 100%;}
 	.at-servicetabcontent .at-sectionimg img{width: 100%;}
 	.at-homeslidervthree .at-titleborder h2 {
-		font-size: 30px;
+		font-size: 40px;
 		line-height: 30px;
+		font-weight: 200;
 	}
-	.at-slidercontent .at-btns .at-btn{padding: 0 40px;}
+	.at-slidercontent .at-btns .at-btn{padding: 0 30px;}
 	.at-slidercontent .at-description p {
 		font-size: 16px;
 		font-weight: 400;
@@ -242,11 +243,11 @@
 		padding: 20px;
 	}
 	.at-titleborder h2{
-		font-size: 30px;
-		line-height: 24px;
+		font-size: 20px;
+		line-height: 34px;
 	}
 	.at-titleborder {
-		margin: 0 0 20px;
+		margin: 0 0 0px;
 		padding: 0 0 20px;
 	}
 	.at-slidercontent .at-description p {font-size: 16px;}
@@ -268,8 +269,8 @@
 	.at-homeslidervsix .at-slidercontent.at-slidercontentleft,
 	.at-homeslidervsix .at-slidercontent.at-slidercontentright {padding: 30px;}
 	.at-homeslidervsix .at-titleborder h2 {
-		font-size: 35px;
-		line-height: 35px;
+		font-size: 23px;
+		line-height: 26px;
 	}
 }
 @media (max-width:767px){
@@ -449,6 +450,11 @@
 }
 @media (max-width:720px){}
 @media (max-width:640px){
+	.at-titleborder h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
 	.at-aboutusslider figure figcaption {
 		padding: 0 20px;
 		font-size: 24px;
@@ -475,6 +481,15 @@
 		padding: 0 0 15px;
 		text-align: center;
 	}
+	.at-titleborder h2{
+		margin: 0;
+		color: #fff;
+		text-transform: uppercase;
+		font-family: 'Lexend Peta', Helvetica, sans-serif;
+		font-weight: 200;
+		font-size: 15px;
+		font-stretch: 2%;
+	}
 	.at-nav,
 	.at-contactsocial{
 		float: none;
@@ -491,7 +506,7 @@
 	.at-postsvtwo .at-post {width: 100%;}
 }
 @media (max-width:480px){
-	.at-slidercontent .at-btns .at-btn{padding: 0 25px;}
+	.at-slidercontent .at-btns .at-btn{padding: 0 20px; font-size: 10px;}
 	.at-addressarea {
 		width: 100%;
 		max-width: 420px;
@@ -499,7 +514,7 @@
 	}
 	.at-addressslider {padding: 50px 20px;}
 	.at-aboutus .at-member figure {
-		width: 130PX;
+		width: 130px;
 		margin: 0 20px 0 0;
 	}
 	.at-servicetabsnav li{width: 50%;}
@@ -517,7 +532,7 @@
 }
 @media (max-width:360px){
 	.at-titleborder h2 {
-		font-size: 24px;
+		font-size: 15px;
 		line-height: 20px;
 	}
 	.at-slidercontent .at-description {padding: 0 0 26px;}

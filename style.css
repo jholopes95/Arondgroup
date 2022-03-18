@@ -23,6 +23,7 @@
 			Theme Reset Style					
 ============================================= */
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900|Saira:400,600);
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
 	margin: 0px;
 	padding: 0px;
@@ -31,7 +32,7 @@ html {scroll-behavior: smooth;}
 body {
 	color: #333;
 	background: #fff;
-	font:300 16px/28px 'Rubik', Arial, Helvetica, sans-serif;
+	font:300 16px/28px 'Lexend Peta', Helvetica, sans-serif;
 }
 body h1,
 body h2,
@@ -45,7 +46,7 @@ body h6 {
 	line-height: 1.5;
 	font-style: normal;
 	text-transform: capitalize;
-	font-family: 'Saira', Arial, Helvetica, sans-serif;
+	font-family: 'Lexend Peta', Helvetica, sans-serif;
 }
 h1 { font-size: 48px;}
 h2 { font-size: 36px;}
@@ -327,15 +328,15 @@ address { font-style: italic; }
 }
 .at-btn {
 	color: #fff;
-	padding: 0 50px;
+	padding: 0 20px;
 	position:relative;
 	text-align:center;
 	display: inline-block;
 	vertical-align: middle;
-	border: 1px solid #fff;
+	border: 0px solid #fff;
 	background: transparent;
 	text-transform: capitalize;
-	font: 400 14px/40px 'Saira', Arial, Helvetica, sans-serif;
+	font: 400 14px/40px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-btnb{
 	color: #fff;
@@ -354,16 +355,16 @@ address { font-style: italic; }
 	height: 100%;
 	position: absolute;
 	background: rgba(255, 255, 255, 0.10);
-	-webkit-transform: translateX(6px) translateY(6px);
+/* 	-webkit-transform: translateX(6px) translateY(6px);
 	-ms-transform: translateX(6px) translateY(6px);
-	transform: translateX(6px) translateY(6px);
+	transform: translateX(6px) translateY(6px); */
 }
 .at-btnb:before{background: #eaeaea;}
 .at-btnw:before{background: rgba(255, 255, 255, 0.10);}
 .at-btn:hover,
 .at-btn:focus,
 .at-btn.at-btnactive,
-.at-btn.at-btnactive:focus { color:#333; }
+.at-btn.at-btnactive:focus { color:#E03323; }
 .at-btnb:hover,
 .at-btnb:focus{color: #fff;}
 .at-btn:hover:before,
@@ -740,7 +741,7 @@ li.at-rss a { background:#ff6600; }
 	float: left;
 	padding: 30px 0 0;
 	text-align: center;
-	font:14px/38px 'Saira', Arial, Helvetica, sans-serif;
+	font:14px/38px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-pagination ul {
 	margin:0;
@@ -790,7 +791,7 @@ li.at-rss a { background:#ff6600; }
 	text-align: left;
 	padding: 15px 0 0;
 	text-transform: capitalize;
-	font: 300 12px/20px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 12px/20px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-breadcrumb li {
 	width:auto;
@@ -823,11 +824,11 @@ li.at-rss a { background:#ff6600; }
 .at-titleborder{
 	width: 100%;
 	float: left;
-	margin: 0 0 30px;
-	padding: 0 0 30px;
+	margin: 0 0 10px;
+	padding: 0 0 10px;
 	position: relative;
 }
-.at-titleborder:before{
+/* .at-titleborder:before{
 	left: 0;
 	bottom: 0;
 	width: 55px;
@@ -836,12 +837,15 @@ li.at-rss a { background:#ff6600; }
 	display: block;
 	background: #fff;
 	position: absolute;
-}
+} */
 .at-titleborder h2{
 	margin: 0;
 	color: #fff;
-	text-transform: capitalize;
-	font: 300 42px/36px 'Rubik', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-family: 'Lexend Peta', Helvetica, sans-serif;
+	font-weight: 200;
+	font-size: 25px;
+	font-stretch: 2%;
 }
 .at-titleborder h2 span{
 	display: block;
@@ -874,7 +878,7 @@ li.at-rss a { background:#ff6600; }
 	margin: 0;
 	color: #333;
 	text-transform: capitalize;
-	font: 300 42px/36px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 42px/36px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-featureimg{
 	width: 100%;
@@ -974,7 +978,7 @@ li.at-rss a { background:#ff6600; }
 .at-pagetitle h1{
 	margin: 0;
 	color: #fff;
-	font:300 42px/34px 'Rubik', Arial, Helvetica, sans-serif;
+	font:300 42px/34px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-pagespace{padding: 100px 0;}
 .at-content{
@@ -1023,7 +1027,7 @@ li.at-rss a { background:#ff6600; }
 .at-nav{
 	float: left;
 	text-transform: capitalize;
-	font:400 16px/20px 'Saira', Arial, Helvetica, sans-serif;
+	font:400 16px/20px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-navigation{
 	padding: 0;
@@ -1125,7 +1129,7 @@ li.at-rss a { background:#ff6600; }
 .at-contactnumber em{
 	font-size: 16px;
 	line-height: 20px;
-	font-family: 'Saira', Arial, Helvetica, sans-serif;
+	font-family: 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-contactsocial .at-socialicons{padding: 0 0 0 20px;}
 .at-contactsocial .at-socialicons li{padding: 0 0 0 6px;}
@@ -1214,10 +1218,10 @@ li.at-rss a { background:#ff6600; }
 .at-pogolidercontent{
 	bottom: 0;
 	z-index: 2;
-	left: 57px;
+	left: 50px;
 	height: 70%;
-	width: 530px;
-	padding: 30px;
+	width: 560px;
+	padding: 50px 50px;
 	position: absolute;
 }
 .at-slidercontent{
@@ -1237,7 +1241,7 @@ li.at-rss a { background:#ff6600; }
 	-webkit-justify-content: center;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
-	justify-content: center;
+	justify-content: space-around;
 	-webkit-align-content: center;
 	-ms-flex-line-pack: center;
 	align-content: center;
@@ -1597,13 +1601,13 @@ li.at-rss a { background:#ff6600; }
 	color: #fff;
 	margin: 0 0 15px;
 	text-transform: capitalize;
-	font:300 40px/43px 'Rubik', Arial, Helvetica, sans-serif;
+	font:300 40px/43px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-helpingsmallbusinesses h3{
 	margin: 0;
 	color: #fff;
 	text-transform: none;
-	font:300 16px/20px 'Rubik', Arial, Helvetica, sans-serif;
+	font:300 16px/20px 'Lexend Peta', Helvetica, sans-serif;
 }
 /* =============================================
 			Request Call Back Style				
@@ -2171,14 +2175,14 @@ li.at-rss a { background:#ff6600; }
 	opacity: 0.10;
 	margin: 0 0 -24px;
 	position: relative;
-	font: 300 120px/90px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 120px/90px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-history li h4{
 	margin: 0;
 	z-index: 2;
 	color: #333;
 	position: relative;
-	font: 400 24px/24px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 400 24px/24px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-history li .at-description{padding: 10px 0 0;}
 .at-history li .at-description p{margin: 0;}
@@ -2260,12 +2264,12 @@ li.at-rss a { background:#ff6600; }
 .at-membercontent span{float: left;}
 .at-membercontent h3{
 	margin: 0 20px 0 0;
-	font: 400 24px/20px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 400 24px/20px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-membercontent span{
 	color: #797979;
 	padding: 7px 0 0;
-	font: 300 14px/14px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 14px/14px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-membercontent .at-description{padding: 22px 0;}
 .at-membercontent .at-description p{margin: 0;}
@@ -2480,12 +2484,12 @@ li.at-rss a { background:#ff6600; }
 .at-widgettitleborder h3{
 	margin: 0;
 	color: #fff;
-	font:300 24px/27px 'Rubik', Arial, Helvetica, sans-serif;
+	font:300 24px/27px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-sidebar .at-widgetlinking{
 	padding: 0;
 	background: #f3f3f3;
-	font:300 16px/26px 'Rubik', Arial, Helvetica, sans-serif;
+	font:300 16px/26px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-sidebar .at-widgetlinking ul{line-height: inherit;}
 .at-sidebar .at-widgetlinking ul li{
@@ -2536,7 +2540,7 @@ li.at-rss a { background:#ff6600; }
 .at-companypresentation a span{float: left;}
 .at-companypresentation a span{
 	padding: 2px 0 0;
-	font:400 14px/26px 'Rubik', Arial, Helvetica, sans-serif;
+	font:400 14px/26px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-companypresentation a i{
 	font-size: 28px;
@@ -2578,7 +2582,7 @@ li.at-rss a { background:#ff6600; }
 	font-size: 32px;
 	line-height: 36px;
 	text-align: center;
-	font:300 32px/36px 'Rubik', Arial, Helvetica, sans-serif;
+	font:300 32px/36px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-ptablebody{
 	z-index: 1;
@@ -2591,7 +2595,7 @@ li.at-rss a { background:#ff6600; }
 	color: #333;
 	margin: 60px 0;
 	text-align: center;
-	font:300 75px/56px 'Rubik', Arial, Helvetica, sans-serif;
+	font:300 75px/56px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-ptable:nth-child(2) .at-ptablebody h3{margin: 110px 0 70px;}
 .at-ptablebody h3 sup{
@@ -2612,7 +2616,7 @@ li.at-rss a { background:#ff6600; }
 	width: 100%;
 	float: left;
 	list-style: none;
-	font:300 16px/20px 'Rubik', Arial, Helvetica, sans-serif;
+	font:300 16px/20px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-ptablebody ul li{
 	width: 100%;
@@ -2642,7 +2646,7 @@ li.at-rss a { background:#ff6600; }
 	float: left;
 	color: #333;
 	list-style: none;
-	font:300 16px/28px 'Rubik', Arial, Helvetica, sans-serif;
+	font:300 16px/28px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-ourprocess li{
 	width: 100%;
@@ -2788,7 +2792,7 @@ li.at-rss a { background:#ff6600; }
 	float: left;
 	color: #2d2d2c;
 	margin: 30% 0 0;
-	font: 300 75px/78px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 75px/78px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-comingsooncontent h2 span{display: block;}
 .at-comingsooncontent .at-socialicons{
@@ -2851,16 +2855,16 @@ li.at-rss a { background:#ff6600; }
 }
 .at-404ontent h1{
 	margin: 0;
-	font: 300 75px/52px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 75px/52px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-404ontent h2{
 	margin: 20px 0 10px;
-	font: 300 42px/42px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 42px/42px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-404ontent .at-description{padding: 0 0 30px;}
 .at-404ontent .at-description p{
 	margin: 0;
-	font: 300 16px/20px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 16px/20px 'Lexend Peta', Helvetica, sans-serif;
 }
 /*==============================================
 			FAQ Page Style						
@@ -2880,7 +2884,7 @@ li.at-rss a { background:#ff6600; }
 }
 .at-faqcategorytitle h2{
 	margin: 0;
-	font: 300 32px/32px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 32px/32px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-faqcategorytitle h2 span{
 	display: inline-block;
@@ -2892,7 +2896,7 @@ li.at-rss a { background:#ff6600; }
 	height: 25px;
 	text-align: center;
 	border-radius: 50%;
-	font: 400 14px/25px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 400 14px/25px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-faqaccordion {
 	margin: 0;
@@ -2970,12 +2974,12 @@ li.at-rss a { background:#ff6600; }
 .at-address h2{
 	color: #fff;
 	margin: 0 0 20px;
-	font: 400 32px/32px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 400 32px/32px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-address h2 em{
 	display: block;
 	padding: 0 0 8px;
-	font: italic 300 16px/16px 'Rubik', Arial, Helvetica, sans-serif;
+	font: italic 300 16px/16px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-address ul{
 	width: 100%;
@@ -3011,7 +3015,7 @@ li.at-rss a { background:#ff6600; }
 .at-address .at-btndirection{
 	color: #fff;
 	float: left;
-	font: 300 20px/20px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 20px/20px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-address .at-btndirection span,
 .at-address .at-btndirection i{
@@ -3038,7 +3042,7 @@ li.at-rss a { background:#ff6600; }
 	width: 100%;
 	float: left;
 	text-align: center;
-	font: 300 16px/30px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 16px/30px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-contacticon{
 	width: 100%;
@@ -3052,7 +3056,7 @@ li.at-rss a { background:#ff6600; }
 	width: 100%;
 	float: left;
 	margin: 30px 0 15px;
-	font: 300 24px/20px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 24px/20px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-colcontact span{
 	width: 100%;
@@ -3150,7 +3154,7 @@ li.at-rss a { background:#ff6600; }
 	float: left;
 	padding: 0 0 40px;
 	list-style: none;
-	font: 300 16px/20px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 16px/20px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-formcontacus .at-contactinfo{color: #fff;}
 .at-contactinfo li{
@@ -3560,7 +3564,7 @@ li.at-rss a { background:#ff6600; }
 .at-posttitle h2{
 	margin: 0;
 	color: #333;
-	font:300 32px/35px 'Rubik', Arial, Helvetica, sans-serif;
+	font:300 32px/35px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-posttitle h2 a{
 	display: inline-block;
@@ -3629,7 +3633,7 @@ li.at-rss a { background:#ff6600; }
 	line-height: 35px;
 }
 .at-widgetcategories .at-widgetcontent{background: #f3f3f3;}
-.at-widgetcategories .at-widgetcontent ul{font: 300 16px/26px 'Rubik', Arial, Helvetica, sans-serif;}
+.at-widgetcategories .at-widgetcontent ul{font: 300 16px/26px 'Lexend Peta', Helvetica, sans-serif;}
 .at-widgetcategories .at-widgetcontent ul li{
 	padding: 0;
 	border-bottom: 1px solid #fff;
@@ -3672,7 +3676,7 @@ li.at-rss a { background:#ff6600; }
 .at-posttitledate h4{
 	margin: 0;
 	color: #333;
-	font: 300 20px/30px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 20px/30px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-widget .at-widgetcontent .at-posttitledate h4 a{
 	color: #333;
@@ -3849,7 +3853,7 @@ li.at-rss a { background:#ff6600; }
 	width: 100%;
 	float: left;
 	list-style: none;
-	font: 300 16px/28px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 16px/28px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-commentlist li,
 .at-commentlistchild li{
@@ -3893,7 +3897,7 @@ li.at-rss a { background:#ff6600; }
 }
 .at-authorname h3{
 	margin: 0;
-	font: 300 24px/28px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 300 24px/28px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-authorname h3 a{display: block;}
 .at-commenthead time{padding: 2px 0 0 40px;}
@@ -4371,7 +4375,7 @@ li.at-rss a { background:#ff6600; }
 .at-homeslidervthree .at-titleborder:before{background: #333;}
 .at-homeslidervthree .at-titleborder h2{
 	text-transform: uppercase;
-	font: 700 56px/50px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 700 56px/50px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-homeslidervthree .at-titleborder h2 em{font-style: normal;}
 .at-homeslidervthree .at-titleborder h2,
@@ -4529,7 +4533,7 @@ li.at-rss a { background:#ff6600; }
 .at-homeslidervfour .at-titleborder h2{
 	color: #fff;
 	text-transform: uppercase;
-	font: 700 56px/50px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 700 56px/50px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-homeslidervfour .at-titleborder h2 em{font-style: normal;}
 .at-homeslidervfour .at-slidercontent .at-description{
@@ -4633,7 +4637,7 @@ li.at-rss a { background:#ff6600; }
 .at-parallexwhychooseus .at-sectionhead h2{
 	margin: 0;
 	color: #fff;
-	font:300 42px/46px 'Rubik', Arial, Helvetica, sans-serif;
+	font:300 42px/46px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-parallexwhychooseus .at-sectionhead h2 span{
 	display: block;
@@ -4744,7 +4748,7 @@ li.at-rss a { background:#ff6600; }
 .at-homeslidervfive .at-titleborder h2{
 	color: #333;
 	text-transform: uppercase;
-	font: 700 56px/50px 'Rubik', Arial, Helvetica, sans-serif;
+	font: 700 56px/50px 'Lexend Peta', Helvetica, sans-serif;
 }
 .at-homeslidervfive .at-titleborder h2 em{font-style: normal;}
 .at-homeslidervfive .at-slidercontent .at-description{
