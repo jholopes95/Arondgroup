@@ -69,9 +69,9 @@ a:active,
 .at-contactusvtwo .at-btn,
 .at-aboutplusconter .at-aboutus .at-imgholder:before,
 .loader,
-.lds-roller { background:#2c67f4; }
-.at-liststyletick li:before {background-color:#2c67f4;}
-.at-postsvtwo .at-post:hover .at-postcontent {background: rgba(44, 103, 244, 0.80);}
+.lds-roller { background:#E03323; }
+.at-liststyletick li:before {background-color:#E03323;}
+.at-postsvtwo .at-post:hover .at-postcontent {background: rgba(224, 51, 35, 0.80);}
 /*=============================================
 			Theme Border Color
 =============================================*/
