@@ -499,6 +499,7 @@
 	.at-homeslider .at-slidernav{display: none;}
 	.at-homeslider .item figcaption,
 	.at-pogolidercontent {
+		display: none;
 		left: 15px;
 		height: 314px;
 		width: calc(100% - 30px);
@@ -531,9 +532,19 @@
 	}
 }
 @media (max-width:360px){
+	.at-btns .at-btn{padding: 0 20px; font-size: 10px;}
+	.at-addressarea {
+		width: 100%;
+		max-width: 420px;
+		padding: 134px 15px;
+	}
 	.at-titleborder h2 {
-		font-size: 15px;
-		line-height: 20px;
+		margin: 0;
+		color: #fff;
+		text-transform: uppercase;
+		font-family: 'Lexend Peta', Helvetica, sans-serif;
+		font-weight: 200;
+		font-size: 12px;
 	}
 	.at-slidercontent .at-description {padding: 0 0 26px;}
 	.at-slidercontent .at-description p {line-height: 24px;}
