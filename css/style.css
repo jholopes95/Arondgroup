@@ -1376,10 +1376,11 @@ li.at-rss a { background:#ff6600; }
 	width: calc(27% + 40px);
 }
 .at-titleandbtn h2{
-	margin: 0 0 150px;
-	font-size: 40px;
+	margin: 0 0 95px;
+	margin-top: 40px;
+	font-size: 18px;
 	font-weight: 300;
-	line-height: 52px;
+	line-height: 32px;
 	text-transform: none;
 }
 .at-titleandbtn h2 span{ font-weight: 400; }
@@ -1438,6 +1439,10 @@ li.at-rss a { background:#ff6600; }
 	float: left;
 	padding: 0 0 20px;
 }
+.at-featureicon .img{
+	max-width: 50%;
+}
+
 .at-title h3{
 	margin: 0;
 	color: #333;
