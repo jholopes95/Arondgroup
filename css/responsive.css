@@ -499,9 +499,9 @@
 	.at-homeslider .at-slidernav{display: none;}
 	.at-homeslider .item figcaption,
 	.at-pogolidercontent {
-		display: none;
-		left: 15px;
-		height: 314px;
+/* 		display: none;
+ */		left: 15px;
+		height: 380px;
 		width: calc(100% - 30px);
 	}
 	.at-postsvtwo .at-post {width: 100%;}
