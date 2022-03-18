@@ -1367,6 +1367,7 @@ li.at-rss a { background:#ff6600; }
 	height: 100%;
 	position: absolute;
 	background: #f4f4f4;
+	display: none;
 }
 .at-titleandbtn{
 	float: left;
@@ -1500,9 +1501,9 @@ li.at-rss a { background:#ff6600; }
 .at-textcontent .at-description{padding: 0 0 30px;}
 .at-textcontent .at-description p{
 	margin: 0;
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 300;
-	line-height:  30px;
+	line-height:  20px;
 }
 /* =============================================
 			Special Services Style				
@@ -4028,9 +4029,9 @@ li.at-rss a { background:#ff6600; }
 	line-height: 44px;
 }
 .at-aboutsectionvtwo{
+	margin-top: 100px;
 	width: 100%;
 	float: left;
-	height: 100vh;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
