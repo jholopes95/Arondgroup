@@ -244,6 +244,7 @@ address { font-style: italic; }
 ============================================= */
 .identidade p{
 	font-family: 'Lexend Peta';
+	font-weight: 900;
 	align-content: center;
 	font-size: 35px;
 	color: #E03323;
@@ -252,11 +253,12 @@ address { font-style: italic; }
 .identidade span{
 	font-family: 'Lexend Peta';
 	font-size: 35px;
-	color: #000;
-	font-weight: 100;
+	color: #1c1c1c;
+	font-weight: 300;
 }
 .identidadetopo p{
 	font-family: 'Lexend Peta';
+	font-weight: 900;
 	margin-top: 21px;
 	margin-bottom: -10px;
 	font-size: 26px;
@@ -267,8 +269,8 @@ address { font-style: italic; }
 .identidadetopo span{
 	font-family: 'Lexend Peta';
 	font-size: 26px;
-	color: #000;
-	font-weight: 100;
+	color: #1c1c1c;
+	font-weight: 300;
 }
 .at-select {
 	color:#666;
@@ -1501,6 +1503,12 @@ li.at-rss a { background:#ff6600; }
 	position: absolute;
 	bottom: calc(100% - 40px);
 }
+.at-feature:hover {
+	color: #8f8f8f;
+	background-color: rgba(218, 216, 216, 0.37);
+}
+
+
 /* =============================================
 				About Us Style					
 ============================================= */
@@ -1901,7 +1909,7 @@ li.at-rss a { background:#ff6600; }
 	/* background: #222; */
 	background-image: url("/images/footer-white.jpg");
 	background-repeat: no-repeat;
-	
+	background-size: cover;
 }
 .at-emailsubscribearea{
 	margin-top: 70px;
