@@ -369,11 +369,15 @@ address { font-style: italic; }
 	text-transform: capitalize;
 	font: 400 14px/40px 'Open Sans', Helvetica, sans-serif;
 }
-.at-btnb{
+.at-btnb {
 	color: #fff;
 	background: #E03323;
 }
-.at-btnw{
+.at-btnform {
+	color: #fff;
+	background: #E03323;
+}
+.at-btnw {
 	color: #E03323;
 	background: #fff;
 }
@@ -719,7 +723,7 @@ li.at-rss a { background:#ff6600; }
 }
 .at-formtheme fieldset{
 	border:0;
-	margin:0;
+	margin: 0 0 34px;
 	padding:0;
 	width:100%;
 	float:left;
@@ -994,7 +998,9 @@ li.at-rss a { background:#ff6600; }
 .at-innerbannerbox{
 	width: 100%;
 	float: left;
-	background: rgba(0, 0, 0, 0.70);
+	background-image: url("/images/header_seu_negocio-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .at-innerbanner.at-innerbannervtwo .at-innerbannerbox{background: none;}
 .at-innerbannervtwo .at-breadcrumb{padding: 0;}
@@ -1651,8 +1657,8 @@ li.at-rss a { background:#ff6600; }
     background-color: #E03323;
 }
 .at-helpingsmallbusinesses .at-btn:hover, .at-btn:focus, .at-btn.at-btnactive, .at-btn.at-btnactive:focus {
-    color: #E03323;
-	background-color: #fff;
+    color: #fff;
+	background-color: #BA1313;
 }
 .at-helpingsmallbusinesses h2{
 	color: #fff;
@@ -3191,7 +3197,7 @@ li.at-rss a { background:#ff6600; }
 	width: 100%;
 	float: left;
 	position: relative;
-	padding: 80px 0 0;
+	padding: 0px 0 0;
 }
 .at-contactusvfour .at-locationmap{
 	top: 0;
@@ -3202,11 +3208,10 @@ li.at-rss a { background:#ff6600; }
 	position: absolute;
 }
 .at-contactusvfour .at-formcontacus{
-	width: 50%;
-	color: #fff;
+	width: 100%;
+	color: #8f8f8f;
 	float: right;
-	background: #222;
-	padding: 100px 40px;
+	padding: 0px;
 }
 .at-contactusvfour .at-sectiontitleborder:before{background: #fff;}
 .at-contactusvfour .at-sectiontitleborder h2{color: #fff;}
@@ -3214,11 +3219,11 @@ li.at-rss a { background:#ff6600; }
 	border: 0;
 	padding: 15px 0;
 	background: transparent;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.50)
+	border-bottom: 1px solid rgba(85, 85, 85, 0.5)
 }
 .at-contactusvfour textarea.form-control{
 	padding: 0;
-	height: 220px;
+	height: 120px;
 }
 .at-contactinfo{
 	width: 100%;
@@ -4488,7 +4493,7 @@ li.at-rss a { background:#ff6600; }
 	width: 100%;
 	float: left;
 	background: #fff;
-	padding: 100px 0;
+	padding: 0px 0 0px;
 }
 .at-aboutsectionvthree .at-aboutus{
 	border: 0;
@@ -4518,7 +4523,7 @@ li.at-rss a { background:#ff6600; }
 .at-aboutsectionvthree .at-aboutus .at-textcontent{
 	width: 56%;
 	padding: 0 5%;
-	margin: 0 -2px;
+	margin: 180px -2px 0px 0px;
 	background: none;
 	-webkit-box-shadow: none;
 			box-shadow: none;
