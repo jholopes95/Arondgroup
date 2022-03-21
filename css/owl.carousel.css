@@ -210,7 +210,7 @@
 }
 .owl-theme .owl-nav [class*='owl-'],
 .at-slidernav [class*='at-'] {
-	color: #000;
+	color: #E03323;
 	width: 32px;
 	height: 32px;
 	cursor: pointer;
@@ -226,8 +226,8 @@
 .owl-theme .owl-nav [class*='owl-']:hover,
 .at-slidernav [class*='at-']:hover {
 	color: #fff;
-	background: #000;
-	border-color: #000;
+	background: #E03323;
+	border-color: #E03323;
 	text-decoration: none;
 }
 .owl-theme .owl-nav .disabled {
