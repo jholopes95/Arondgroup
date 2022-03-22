@@ -743,7 +743,7 @@ li.at-rss a { background:#ff6600; }
 }
 .at-formtheme fieldset{
 	border:0;
-	margin: 0 0 34px;
+	margin: 0 0 3px;
 	padding:0;
 	width:100%;
 	float:left;
@@ -867,7 +867,7 @@ li.at-rss a { background:#ff6600; }
 }
 .at-breadcrumb li:last-child { 
 	padding: 0 0 0 15px;
-	color: #E03323;
+	color: #fff;
 }
 .at-breadcrumb li:first-child {padding-left: 0;}
 .at-breadcrumb li:first-child:after {display: none;}
@@ -1028,7 +1028,7 @@ li.at-rss a { background:#ff6600; }
 .at-innerbannerboxempresas{
 	width: 100%;
 	float: left;
-	background-image: url("/images/header_empresas.jpg");
+	background-image: url("/images/header_seu_negocio.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1584,7 +1584,7 @@ li.at-rss a { background:#ff6600; }
 	margin: 0;
 	font-size: 15px;
 	font-weight: 300;
-	line-height:  20px;
+	line-height:  24px;
 }
 /* =============================================
 			Special Services Style				
@@ -3472,6 +3472,11 @@ li.at-rss a { background:#ff6600; }
 	float: left;
 	padding: 60px 0 0;
 }
+
+.at-imgempresas img{
+	height: 80px;
+	margin-bottom: 40px;
+}
 .at-servicetabcontent .tab-pane{
 	width: 100%;
 	float: left;
@@ -4568,7 +4573,13 @@ li.at-rss a { background:#ff6600; }
 .at-aboutsectionvthree .at-aboutus .at-textcontent .at-description{padding: 40px 0;}
 .at-aboutsectionvthree .at-aboutus .at-textcontent .at-description p {font-size: 17px;}
 .at-aboutsectionvthree .at-aboutus .at-textcontent .at-liststyle li + li {margin: 25px 0 0;}
-.at-aboutsectionvthree .at-servicetabs{padding: 100px 0 100px;}
+.at-aboutsectionvthree .at-servicetabs{
+	padding-top: 100px;
+}
+.at-aboutsectionvthree .at-servicetabs:nth-child(2){
+	padding-bottom: 170px;
+	padding-top: 130px;
+}
 .at-footer.at-footervtwo {background: #fff;}
 .at-footervtwo .at-emailsubscribearea{background: #f4f4f4;}
 .at-footervtwo .at-widgettext,
