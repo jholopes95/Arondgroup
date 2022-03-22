@@ -357,6 +357,26 @@ address { font-style: italic; }
 	padding: 0 20px;
 	line-height: 30px;
 }
+.at-btnr {
+	color: #fff;
+	padding: 0 20px;
+	position:relative;
+	text-align:center;
+	display: inline-block;
+	vertical-align: middle;
+	border: 0px solid #fff;
+	background: transparent;
+	background-color: #E03323;
+	text-transform: capitalize;
+	font: 400 14px/40px 'Open Sans', Helvetica, sans-serif;
+}
+.at-btnr:hover,
+.at-btnr:focus,
+.at-btnr.at-btnactive,
+.at-btnr.at-btnactive:focus {
+	color: white;
+}
+
 .at-btn {
 	color: #fff;
 	padding: 0 20px;
@@ -845,7 +865,10 @@ li.at-rss a { background:#ff6600; }
 	content:'>';
 	position:absolute;
 }
-.at-breadcrumb li:last-child { padding: 0 0 0 15px;}
+.at-breadcrumb li:last-child { 
+	padding: 0 0 0 15px;
+	color: #E03323;
+}
 .at-breadcrumb li:first-child {padding-left: 0;}
 .at-breadcrumb li:first-child:after {display: none;}
 .at-breadcrumb li a {
@@ -999,6 +1022,13 @@ li.at-rss a { background:#ff6600; }
 	width: 100%;
 	float: left;
 	background-image: url("/images/header_seu_negocio-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.at-innerbannerboxempresas{
+	width: 100%;
+	float: left;
+	background-image: url("/images/header_empresas.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1657,8 +1687,8 @@ li.at-rss a { background:#ff6600; }
     background-color: #E03323;
 }
 .at-helpingsmallbusinesses .at-btn:hover, .at-btn:focus, .at-btn.at-btnactive, .at-btn.at-btnactive:focus {
-    color: #fff;
-	background-color: #BA1313;
+    color: #E03323;
+	background-color: #fff;
 }
 .at-helpingsmallbusinesses h2{
 	color: #fff;
@@ -3435,7 +3465,7 @@ li.at-rss a { background:#ff6600; }
 .at-servicetabsnav li.active a,
 .at-servicetabsnav li:hover a{
 	color: #fff;
-	background: #8f8f8f;
+	background: #E03323;
 }
 .at-servicetabcontent{
 	width: 100%;
@@ -4538,7 +4568,7 @@ li.at-rss a { background:#ff6600; }
 .at-aboutsectionvthree .at-aboutus .at-textcontent .at-description{padding: 40px 0;}
 .at-aboutsectionvthree .at-aboutus .at-textcontent .at-description p {font-size: 17px;}
 .at-aboutsectionvthree .at-aboutus .at-textcontent .at-liststyle li + li {margin: 25px 0 0;}
-.at-aboutsectionvthree .at-servicetabs{padding: 100px 0 0;}
+.at-aboutsectionvthree .at-servicetabs{padding: 100px 0 100px;}
 .at-footer.at-footervtwo {background: #fff;}
 .at-footervtwo .at-emailsubscribearea{background: #f4f4f4;}
 .at-footervtwo .at-widgettext,
