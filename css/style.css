@@ -655,7 +655,7 @@ li.at-rss a { background:#ff6600; }
 	margin: 0 -2px;
 	float: none !important;
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: top;
 }
 .at-description {
 	width: 100%;
@@ -1021,14 +1021,14 @@ li.at-rss a { background:#ff6600; }
 .at-innerbannerbox{
 	width: 100%;
 	float: left;
-	background-image: url("/Arondgroup/images/header_seu_negocio-2.jpg");
+	background-image: url("/images/seu-negocios/header_seu_negocio-2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .at-innerbannerboxempresas{
 	width: 100%;
 	float: left;
-	background-image: url("/Arondgroup/images/header_seu_negocio.jpg");
+	background-image: url("/images/empressas/header_empresas.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1674,7 +1674,7 @@ li.at-rss a { background:#ff6600; }
 	padding: 150px 0 150px;
 }
 .at-parallexhelping:before{
-	background-image: url('/Arondgroup/images/parallaxbg/seja_parceiro_red.png');
+	background-image: url('/images/parallaxbg/seja_parceiro_red.png');
 	background-position: top 30% right 10%;
 }
 .at-helpingsmallbusinesses{
@@ -1693,7 +1693,7 @@ li.at-rss a { background:#ff6600; }
 .at-helpingsmallbusinesses h2{
 	color: #fff;
 	margin: 0 0 15px;
-	text-transform: capitalize;
+	text-transform: inherit;
 	font:300 40px/43px 'Open Sans', Helvetica, sans-serif;
 }
 .at-helpingsmallbusinesses h3{
@@ -1943,7 +1943,7 @@ li.at-rss a { background:#ff6600; }
 ============================================= */
 .at-footer{
 	/* background: #222; */
-	background-image: url("/Arondgroup/images/footer-white.jpg");
+	background-image: url("/images/footer/bg-footer.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1975,7 +1975,7 @@ li.at-rss a { background:#ff6600; }
 	line-height: 50px;
 	position: absolute;
 	font-family: 'icomoon' !important;
-	background: url('/Arondgroup/images/icons/icon-01.png') no-repeat 0 50%;
+	background: url('/images/icons/icon-01.png') no-repeat 0 50%;
 }
 .at-formnewsletter{
 	float: right;
@@ -3446,8 +3446,8 @@ li.at-rss a { background:#ff6600; }
 	line-height: 54px;
 	list-style: none;
 	display: table;
-	table-layout: fixed;
-	border: 1px solid #e7e7e7;
+	table-layout: auto;
+	border: 0px solid #e7e7e7;
 	border-left: 0;
 }
 .at-servicetabsnav li{
@@ -3457,6 +3457,7 @@ li.at-rss a { background:#ff6600; }
 	line-height: inherit;
 	list-style-type: none;
 	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
 }
 .at-servicetabsnav li a{
 	color: #8f8f8f;
@@ -3465,7 +3466,7 @@ li.at-rss a { background:#ff6600; }
 .at-servicetabsnav li.active a,
 .at-servicetabsnav li:hover a{
 	color: #fff;
-	background: #E03323;
+	background: #f1f0f0;
 }
 .at-servicetabcontent{
 	width: 100%;
@@ -3473,9 +3474,14 @@ li.at-rss a { background:#ff6600; }
 	padding: 60px 0 0;
 }
 
+.at-imgtap {
+    height: 26px;
+}
+
 .at-imgempresas img{
 	height: 80px;
 	margin-bottom: 40px;
+	margin-top: 20px;
 }
 .at-servicetabcontent .tab-pane{
 	width: 100%;
@@ -4575,6 +4581,7 @@ li.at-rss a { background:#ff6600; }
 .at-aboutsectionvthree .at-aboutus .at-textcontent .at-liststyle li + li {margin: 25px 0 0;}
 .at-aboutsectionvthree .at-servicetabs{
 	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .at-aboutsectionvthree .at-servicetabs:nth-child(2){
 	padding-bottom: 170px;
