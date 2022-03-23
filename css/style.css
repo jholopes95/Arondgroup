@@ -1021,14 +1021,14 @@ li.at-rss a { background:#ff6600; }
 .at-innerbannerbox{
 	width: 100%;
 	float: left;
-	background-image: url("/images/seu-negocios/header_seu_negocio-2.jpg");
+	background-image: url("images/seu-negocios/header_seu_negocio-2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .at-innerbannerboxempresas{
 	width: 100%;
 	float: left;
-	background-image: url("/images/empressas/header_empresas.jpg");
+	background-image: url("images/empressas/header_empresas.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1674,7 +1674,7 @@ li.at-rss a { background:#ff6600; }
 	padding: 150px 0 150px;
 }
 .at-parallexhelping:before{
-	background-image: url('/images/parallaxbg/seja_parceiro_red.png');
+	background-image: url('images/parallaxbg/seja_parceiro_red.png');
 	background-position: top 30% right 10%;
 }
 .at-helpingsmallbusinesses{
@@ -1943,7 +1943,7 @@ li.at-rss a { background:#ff6600; }
 ============================================= */
 .at-footer{
 	/* background: #222; */
-	background-image: url("/images/footer/bg-footer.jpg");
+	background-image: url("images/footer/bg-footer.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1975,7 +1975,7 @@ li.at-rss a { background:#ff6600; }
 	line-height: 50px;
 	position: absolute;
 	font-family: 'icomoon' !important;
-	background: url('/images/icons/icon-01.png') no-repeat 0 50%;
+	background: url('images/icons/icon-01.png') no-repeat 0 50%;
 }
 .at-formnewsletter{
 	float: right;
