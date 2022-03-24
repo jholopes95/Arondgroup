@@ -447,9 +447,10 @@
 	}
 	.at-griditem{width: 100%;}
 	.at-ptable {width: 100%;}
-	.at-servicetabsnav li{
+	.at-servicetabsnav li {
 		width: 33.33%;
 		float: left;
+		border: 1px solid #f8f8f8;
 	}
 	.at-servicetabsnav li:nth-child(1),
 	.at-servicetabsnav li:nth-child(2),
