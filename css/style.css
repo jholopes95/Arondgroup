@@ -1016,7 +1016,7 @@ li.at-rss a { background:#ff6600; }
 	width: 100%;
 	float: left;
 	margin: 80px 0 0;
-	background: url('/images/parallaxbg/parallaxbg-02.jpg') no-repeat 50% 50%;
+	background: url('/Arondgroup/images/parallaxbg/parallaxbg-02.jpg') no-repeat 50% 50%;
 }
 .at-innerbanner.at-innerbannervtwo{
 	color: #767676;
@@ -1026,14 +1026,14 @@ li.at-rss a { background:#ff6600; }
 .at-innerbannerbox{
 	width: 100%;
 	float: left;
-	background-image: url("/images/seu-negocios/header_seu_negocio-2.jpg");
+	background-image: url("/Arondgroup/images/seu-negocios/header_seu_negocio-2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .at-innerbannerboxempresas{
 	width: 100%;
 	float: left;
-	background-image: url("/images/empressas/header_empresas.jpg");
+	background-image: url("/Arondgroup/images/empressas/header_empresas.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1687,7 +1687,7 @@ li.at-rss a { background:#ff6600; }
 	padding: 150px 0 150px;
 }
 .at-parallexhelping:before{
-	background-image: url('/images/parallaxbg/seja_parceiro_red.png');
+	background-image: url('/Arondgroup/images/parallaxbg/seja_parceiro_red.png');
 	background-position: top 30% right 10%;
 }
 .at-helpingsmallbusinesses{
@@ -1956,7 +1956,7 @@ li.at-rss a { background:#ff6600; }
 ============================================= */
 .at-footer{
 	/* background: #222; */
-	background-image: url("/images/footer/bg-footer.jpg");
+	background-image: url("/Arondgroup/images/footer/bg-footer.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1988,7 +1988,7 @@ li.at-rss a { background:#ff6600; }
 	line-height: 50px;
 	position: absolute;
 	font-family: 'icomoon' !important;
-	background: url('/images/icons/icon-01.png') no-repeat 0 50%;
+	background: url('/Arondgroup/images/icons/icon-01.png') no-repeat 0 50%;
 }
 .at-formnewsletter{
 	float: right;
@@ -2900,7 +2900,7 @@ li.at-rss a { background:#ff6600; }
 	float: left;
 	height: 100vh;
 	position: relative;
-	background: #fff url('/images/icons/logo2.png') no-repeat -40% 100%;
+	background: #fff url('/Arondgroup/images/icons/logo2.png') no-repeat -40% 100%;
 	padding: 60px 5% 60px 60px;
 }
 .at-comingsooncontent .at-logo{
@@ -2941,7 +2941,7 @@ li.at-rss a { background:#ff6600; }
 	width: 50%;
 	float: right;
 	height: 100vh;
-	background: url('/images/parallaxbg/parallaxbg-04.jpg') no-repeat 50% 50%;
+	background: url('/Arondgroup/images/parallaxbg/parallaxbg-04.jpg') no-repeat 50% 50%;
 	background-size: cover;
 }
 /*==============================================
@@ -2966,7 +2966,7 @@ li.at-rss a { background:#ff6600; }
 	-webkit-align-content: center;
 	-ms-flex-line-pack: center;
 	align-content: center;
-	background: url('/images/icons/logo.png') no-repeat 100% 50%;
+	background: url('/Arondgroup/images/icons/logo.png') no-repeat 100% 50%;
 }
 .at-404ontent{
 	width: 100%;
@@ -3073,11 +3073,11 @@ li.at-rss a { background:#ff6600; }
 	background-size: cover;
 }
 .at-addressusa{
-	background: url('/images/contactus/img-01.jpg') no-repeat 50% 50%;
+	background: url('/Arondgroup/images/contactus/img-01.jpg') no-repeat 50% 50%;
 	background-size: cover;
 }
 .at-addressfrance{
-	background: url('/images/contactus/img-02.jpg') no-repeat 50% 50%;
+	background: url('/Arondgroup/images/contactus/img-02.jpg') no-repeat 50% 50%;
 	background-size: cover;
 }
 .at-addressholder{
@@ -3229,7 +3229,7 @@ li.at-rss a { background:#ff6600; }
 	width: 100%;
 	height: 100%;
 	content: '';
-	background: url('/images/icons/logo3.png') no-repeat 95% center;
+	background: url('/Arondgroup/images/icons/logo3.png') no-repeat 95% center;
 	position: absolute;
 }
 .at-contactusvthree .at-sectiontitleborder:before{background: #fff;}
@@ -3527,7 +3527,7 @@ li.at-rss a { background:#ff6600; }
 }
 .at-parallexservices:before {
 	opacity: 0.20;
-	background-image: url('/images/parallaxbg/parallaxbg-04.jpg');
+	background-image: url('/Arondgroup/images/parallaxbg/parallaxbg-04.jpg');
 }
 .at-parallexservices .at-sectionhead{padding: 0 0 80px;}
 .at-parallexservices .at-sectionhead .at-sectiontitleborder{
@@ -4227,7 +4227,7 @@ li.at-rss a { background:#ff6600; }
 	line-height: 20px;
 	position: absolute;
 	border-radius: 50%;
-	background-image: url('/images/icons/icon-02.png');
+	background-image: url('/Arondgroup/images/icons/icon-02.png');
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
@@ -4356,7 +4356,7 @@ li.at-rss a { background:#ff6600; }
 }
 .at-parallexrequestcallback:before {
 	opacity: 1;
-	background-image: url('/images/parallaxbg/parallaxbg-06.jpg');
+	background-image: url('/Arondgroup/images/parallaxbg/parallaxbg-06.jpg');
 }
 .at-parallexrequestcallback .at-requestacallback{
 	width: 57%;
@@ -4758,7 +4758,7 @@ li.at-rss a { background:#ff6600; }
 }
 .at-parallexwhychooseus:before {
 	opacity: 0.50;
-	background-image: url('/images/parallaxbg/parallaxbg-05.jpg');
+	background-image: url('/Arondgroup/images/parallaxbg/parallaxbg-05.jpg');
 }
 .at-parallexwhychooseus .at-sectionhead{
 	padding: 40px 0;
@@ -4817,13 +4817,13 @@ li.at-rss a { background:#ff6600; }
 .at-aboutsectionvfour:before{
 	bottom: 100%;
 	height: 324px;
-	background: url('/images/img-10.png') no-repeat 0 50%;
+	background: url('/Arondgroup/images/img-10.png') no-repeat 0 50%;
 	background-size: 100% 324px;
 }
 .at-aboutsectionvfour:after{
 	bottom: -172px;
 	height: 342px;
-	background: url('/images/img-11.png') no-repeat 0 50%;
+	background: url('/Arondgroup/images/img-11.png') no-repeat 0 50%;
 	background-size: 100% 342px;
 }
 .at-aboutsectionvfourholder{
