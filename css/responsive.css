@@ -441,7 +441,7 @@
 		line-height: 32px;
 	}
 	.at-aboutus .at-textcontent {
-		padding: 50px;
+		padding: 20px;
 		margin: 0 15px;
 		width: calc(100% - 30px);
 	}
@@ -479,7 +479,7 @@
 	.at-contactusvfour .at-formtheme.at-formcontacus{
 		width: 100%;
 		float: left;
-		padding: 30px;
+		padding: 0px;
 	}
 	.at-homeslidervthree{height: 260px;}
 	.at-homeslidervthree .pogoSlider-slide figure{display: none;}
@@ -530,10 +530,6 @@
 	.at-featuresslider .at-slidernav {
 		display: contents;
 	}
-	.at-titleborder h2 {
-		font-size: 20px;
-		line-height: 30px;
-	}
 
 	.at-aboutusslider figure figcaption {
 		padding: 0 20px;
@@ -571,13 +567,8 @@
 		text-align: center;
 	}
 	.at-titleborder h2{
-		margin: 0;
-		color: #fff;
-		text-transform: uppercase;
-		font-family: 'Open Sans', Helvetica, sans-serif;
-		font-weight: 200;
-		font-size: 15px;
-		font-stretch: 2%;
+		font-size: 30px;
+		line-height: 40px;
 	}
 	.at-nav,
 	.at-contactsocial{
@@ -639,20 +630,24 @@
 		height: 120px;
 	}
 }
+@media (max-width:425px){
+	.at-titleborder h2{
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
 @media (max-width:360px){
+	.at-homeslider .item figcaption, .at-pogolidercontent {
+		height: 307px;
+	}
+	.at-pogolidercontent {
+		padding: 20px 20px;
+	}
 	.at-btns .at-btn{padding: 0 20px; font-size: 10px;}
 	.at-addressarea {
 		width: 100%;
 		max-width: 420px;
 		padding: 134px 15px;
-	}
-	.at-titleborder h2 {
-		margin: 0;
-		color: #fff;
-		text-transform: uppercase;
-		font-family: 'Open Sans', Helvetica, sans-serif;
-		font-weight: 200;
-		font-size: 10px;
 	}
 	.at-slidercontent .at-description {padding: 0 0 26px;}
 	.at-slidercontent .at-description p {line-height: 24px;}

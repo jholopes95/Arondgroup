@@ -3149,7 +3149,10 @@ li.at-rss a { background:#ff6600; }
 }
 .at-formcontacus textarea.form-control{height: 320px;}
 .at-formcontacus .form-group{margin: 0 0 30px;}
-.at-formcontacus .at-btn{line-height: 50px;}
+.at-formcontacus .at-btn{
+	line-height: 50px;
+	width: 200px;
+}
 .at-contactusvone .at-btn:hover{color: #fff;}
 /*==============================================
 			Contact Us V2 Page Style			
@@ -4551,7 +4554,7 @@ li.at-rss a { background:#ff6600; }
 }
 .at-aboutsectionvthree .at-aboutus{
 	border: 0;
-	padding: 0;
+	padding: 20px;
 	margin-top: 100px;
 }
 .at-aboutsectionvthree .at-aboutus .at-sectionimg{
@@ -4590,7 +4593,7 @@ li.at-rss a { background:#ff6600; }
 .at-aboutsectionvthree .at-aboutus .at-sectiontitleborder:before{display: none;}
 .at-aboutsectionvthree .at-aboutus .at-sectiontitleborder h2{line-height: 52px;}
 .at-aboutsectionvthree .at-aboutus .at-sectiontitleborder h2 span{font-weight: 400;}
-.at-aboutsectionvthree .at-aboutus .at-textcontent .at-description{padding: 40px 0;}
+.at-aboutsectionvthree .at-aboutus .at-textcontent .at-description{padding: 20px 0 10px;}
 .at-aboutsectionvthree .at-aboutus .at-textcontent .at-description p {font-size: 17px;}
 .at-aboutsectionvthree .at-aboutus .at-textcontent .at-liststyle li + li {margin: 25px 0 0;}
 .at-aboutsectionvthree .at-servicetabs{
