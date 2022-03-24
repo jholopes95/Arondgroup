@@ -1026,14 +1026,14 @@ li.at-rss a { background:#ff6600; }
 .at-innerbannerbox{
 	width: 100%;
 	float: left;
-	background-image: url("images/seu-negocios/header_seu_negocio-2.jpg");
+	background-image: url("/images/seu-negocios/header_seu_negocio-2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .at-innerbannerboxempresas{
 	width: 100%;
 	float: left;
-	background-image: url("images/empressas/header_empresas.jpg");
+	background-image: url("/images/empressas/header_empresas.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -1949,7 +1949,7 @@ li.at-rss a { background:#ff6600; }
 ============================================= */
 .at-footer{
 	/* background: #222; */
-	background-image: url("images/footer/bg-footer.jpg");
+	background-image: url("/images/footer/bg-footer.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
