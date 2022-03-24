@@ -1581,9 +1581,16 @@ li.at-rss a { background:#ff6600; }
 	-webkit-box-shadow: 0 0 10px 1px rgba(0,0,0,0.10);
 	box-shadow: 0 0 10px 1px rgba(0,0,0,0.10);
 }
-.at-aboutus .at-textcontent {
+/* .at-aboutus .at-textcontent {
 	margin: 50px 0 0 50px;
 	width: calc(50% + 100px);
+} */
+.at-aboutus .at-textcontent {
+	padding: 0px 40px 0 0;
+	margin: 0px;
+	width: 50%;
+	box-shadow: none;
+	-webkit-box-shadow: none;
 }
 .at-textcontent .at-description{padding: 0 0 30px;}
 .at-textcontent .at-description p{
@@ -5153,6 +5160,15 @@ li.at-rss a { background:#ff6600; }
 	width: 100%;
 	height: auto;
 	display: block;
+}
+.at-imgholder {
+    width: 95%;
+    height: 510px;
+    float: left;
+    background-image: url(http://127.0.0.1:5500/images/home/about-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .at-aboutplusconter .at-aboutus .at-imgholder:before{
 	top: 10px;

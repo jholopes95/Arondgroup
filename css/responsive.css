@@ -1,4 +1,13 @@
 @media (max-width:1680px){
+	.at-imgholder {
+		width: 95%;
+		height: 510px;
+		float: left;
+		background-image: url(http://127.0.0.1:5500/images/home/about-01.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
 	.at-homeslidervone .item {padding: 0 0 0 25%;}
 	.at-featuresarea {padding: 100px 0 100px 200px; }
 	.at-featuresarea:before { width: 100px; }
@@ -77,6 +86,7 @@
 	.at-homeslidervfour{min-height: 600px;}
 }
 @media (max-width:1080px){
+	
 	.at-home .at-logo {padding: 1px 0px 0;}
 	.at-navigationarea {padding: 25px 10px 0;}
 	.at-navigation > ul > li {margin: 8px 0 0;}
@@ -104,7 +114,7 @@
 	.at-titleandbtn {
 		padding: 0;
 		float: none;
-		width: 100%;
+		width: 70%;
 		margin: 0 auto;
 		overflow: hidden;
 		text-align: center;
@@ -128,8 +138,8 @@
 		margin: 20px auto 0;
 	}
 	.at-aboutus .at-textcontent {
-		padding: 45px;
-		margin: 50px 0 0 0;
+		padding: 0 40px 0 0;
+		margin: 0px 0 0 0;
 	}
 	.at-requestacallback {padding: 45px;}
 	.at-sectiontitleborder h2 {font-size: 34px;}
@@ -206,6 +216,15 @@
 	.at-comingsooncontent h2 {
 		margin: 15% 0 0;
 		font: 300 50px/53px 'Open Sans', Helvetica, sans-serif;
+	}
+	.at-imgholder {
+		width: 100%;
+		height: 510px;
+		float: left;
+		background-image: url(http://127.0.0.1:5500/images/home/about-01.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
 	}
 }
 @media (max-width:991px){
@@ -305,6 +324,18 @@
 	}
 }
 @media (max-width:767px){
+	.at-btns {
+		text-align: center;
+	}
+	.at-imgholder {
+		width: 100%;
+		height: 310px;
+		float: left;
+		background-image: url(http://127.0.0.1:5500/images/home/about-01.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom center;
+	}
 	.identidade p {
 		font-size: 25px;
 	}
@@ -410,7 +441,7 @@
 		line-height: 32px;
 	}
 	.at-aboutus .at-textcontent {
-		padding: 20px;
+		padding: 50px;
 		margin: 0 15px;
 		width: calc(100% - 30px);
 	}
@@ -518,6 +549,15 @@
 	.at-aboutsectionvthree .at-aboutus .at-sectionimg {width: 70%;}
 }
 @media (max-width:568px){
+	.at-imgholder {
+		width: 100%;
+		height: 310px;
+		float: left;
+		background-image: url(http://127.0.0.1:5500/images/home/about-01.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 0px -70px;
+	}
 	.at-home .at-logo,
 	.at-logo {
 /* 		float: none; */
