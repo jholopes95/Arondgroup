@@ -276,6 +276,12 @@
 	}
 }
 @media (max-width:767px){
+	.identidade p {
+		font-size: 25px;
+	}
+	.identidade span {
+		font-size: 25px;
+	}
 	.identidadetopo p {
 		font-size: 20px;
 	}
