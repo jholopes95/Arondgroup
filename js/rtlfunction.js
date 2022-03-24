@@ -334,7 +334,7 @@ jQuery(document).on('ready', function() {
 				address: 'New York, USA',
 				options: {
 					title: 'Robert Frost Elementary School',
-					icon: "/Arondgroup/images/pin.png",
+					icon: "images/pin.png",
 					animation: google.maps.Animation.BOUNCE,
 				}
 			},

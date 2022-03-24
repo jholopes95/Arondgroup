@@ -34,7 +34,9 @@
 }
 @media (max-width:1360px){}
 @media (max-width:1280px){
-	.at-home .at-logo {width: 250px;}
+	.at-home .at-logo {
+		width: 250px;
+	}
 	.at-homeslidervone .item {padding: 0 0 0 320px;}
 	.at-homeone .at-navigationarea {padding: 25px 15px 0;}
 	.at-featuresarea:before {width: 60px;}
@@ -69,7 +71,7 @@
 	.at-homeslidervfour{min-height: 600px;}
 }
 @media (max-width:1080px){
-	.at-home .at-logo {padding: 18px 15px 0;}
+	.at-home .at-logo {padding: 1px 0px 0;}
 	.at-navigationarea {padding: 25px 10px 0;}
 	.at-navigation > ul > li {margin: 8px 0 0;}
 	.at-navigation ul li a {padding: 0 10px 27px;}
@@ -152,7 +154,7 @@
 	==========================================================================================*/
 	.at-navigationarea {padding: 20px !important;}
 	.at-contactsocial {padding: 2px 0 2px 20px;}
-	.at-home .at-logo {padding: 18px 15px 0;}
+	.at-home .at-logo {padding: 18px 0px 0;}
 	.at-navigation{
 		left: 0;
 		top: 100%;
@@ -274,6 +276,12 @@
 	}
 }
 @media (max-width:767px){
+	.identidadetopo p {
+		font-size: 20px;
+	}
+	.identidadetopo span {
+		font-size: 20px;
+	}
 	.tg-dropdowarrow{display: block;}
 	.tg-nav{
 		width: auto;
@@ -299,8 +307,9 @@
 		position: static;
 		width: 100% !important;
 	}
-	.at-homeslider .item figcaption,
-	 {height: 286px;}
+	.at-homeslider .item figcaption, {
+		height: 286px;
+	}
 	.at-aboutus .at-sectionimg {
 		margin: 0 0 -100px;;
 		width: 100%;
@@ -347,8 +356,8 @@
 	.at-home .at-header,
 	.at-header{background: #fff;}
 	.at-home .at-logo {
-		width: 50%;
-		padding: 21px 0 21px 20px;
+		width: 100%;
+		padding: 0px 0px 0px 0px;
 	}
 	.at-infoemail {
 		top: 18%;
@@ -471,13 +480,13 @@
 @media (max-width:568px){
 	.at-home .at-logo,
 	.at-logo {
-		float: none;
+/* 		float: none; */
 		display: block;
 		margin: 0 auto;
-		padding: 15px 0;
+		padding: 0px 0;
 	}
 	.at-navigationarea {
-		width: 100%;
+		width: 20%;
 		padding: 0 0 15px;
 		text-align: center;
 	}
