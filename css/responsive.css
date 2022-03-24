@@ -251,16 +251,8 @@
 		width: 100%;
 		margin-bottom: 50px;
 	}
-	.at-sectiontitleborder:before {
-		margin-left: 33%;
-		margin-right: 33%;
-		width: 33%;
-	}
 	.at-aboutsectionvtwo .at-aboutus .at-textcontent {
 		width: 100%;
-	}
-	.at-sectiontitleborder h2,p {
-		text-align: center;
 	}
 	.at-fcolumn + .at-fcolumn {padding: 30px 0 30px 30px;}
 }
