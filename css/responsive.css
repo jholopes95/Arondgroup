@@ -136,6 +136,9 @@
 }
 @media (max-width:1050px){}
 @media (max-width:1024px){
+	.at-logo.identidade p {
+		text-align: center;
+	}
 	.at-dropdowarrow{
 		z-index: 2;
 		display: block;
@@ -154,7 +157,10 @@
 	==========================================================================================*/
 	.at-navigationarea {padding: 20px !important;}
 	.at-contactsocial {padding: 2px 0 2px 20px;}
-	.at-home .at-logo {padding: 18px 0px 0;}
+	.at-home .at-logo {
+		padding: 18px 0px 0;
+		width: 100%;
+	}
 	.at-navigation{
 		left: 0;
 		top: 100%;
@@ -238,6 +244,12 @@
 	.at-testimonial{margin: 15px 0;}
 	.at-postsvtwo .at-post {width: 50%;}
 	.at-addressfrance .at-address ul{padding: 0 0 43px;}
+	.at-fcolumn .at-description p {
+		text-align: center;
+	}
+	.at-fcolumn {
+		width: 100%;
+	}
 }
 @media (max-width:800px){
 	.at-homeslider .item figcaption {
